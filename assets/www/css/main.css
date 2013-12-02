@@ -1,0 +1,348 @@
+body {
+}
+
+.icon-bar {
+	background-color: #fff;
+}
+
+.leaflet-map-pane img {
+	max-width: none;
+	max-height: none;
+}
+
+#menu_btn_div {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.interface_btn {
+	background-color: #0a3859;
+	width: 30px;
+	height: 50px;
+	color: #fff;
+	text-align: center;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;	
+}
+
+.menu_glyph {
+	font-size: 20px !important;
+	top: 11px !important;
+	vertical-align: middle !important;
+}
+
+#menuknap {
+	position: absolute;
+	z-index: 9000;
+	margin-top: 15%;
+}
+
+#layerknap {
+	position: absolute;
+	z-index: 9000;
+	margin-top: 25%;
+}
+
+/*Rute planlægger side*/
+.rute_plan {
+	z-index: 10000;
+	position: absolute;
+	/*height: 100%;*/
+	height: auto;
+	width: 100%;
+	background-color: #fff;
+	visibility: visible;
+	-webkit-transform: translate3d(0, -250%, 0);
+	transform: translate3d(0, -250%, 0);
+	overflow: auto;
+}
+
+.rute_plan_open {
+	/*position: relative;*/
+	visibility: visible;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);	
+	-webkit-transition: -webkit-transform 1s;
+	transition: transform 1s;
+}
+
+.rute_plan_content {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.startslutpunkt {
+	height: 20%;
+	width: 100%;
+	box-shadow: 0px 5px 3px 0px #d2d2d2;
+}
+
+.startpunkt {
+	height: 50%;
+	width: 100%;
+	
+}
+
+.slutpunkt {
+	height: 50%;
+	width: 100%;
+
+}
+
+.startslutlinie {
+	position: relative;
+	height: 1%;
+	width: 80%;
+	left: 10%;
+	background-color: #ccc;
+}
+
+/*Zoom Buttons */
+.zoom-btn {
+	right: 10px;
+	font-size: 20px;
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+	background-color: #0a3859;
+}
+
+#zoom-in {
+	position: absolute;
+	top: 50px;
+	z-index: 5000;
+}
+
+#zoom-out {
+	position: absolute;
+	top: 90px;
+	z-index: 5000;
+}
+
+/*Rute footer*/
+#rute-footer {
+	position: absolute;
+	z-index: 9000;
+	bottom: 0px;
+	height: 15%;
+	width: 100%;
+	background-color: #fff;
+	opacity: 0.6;
+	box-shadow: 0px -5px 5px 0px #d2d2d2;
+}
+
+#pil-div {
+	height: 100%;
+	width: 25%;
+	background-color: #fff;
+}
+
+#pil {
+	position: absolute;
+	bottom: 30%;
+	height: 70%;
+	width: 25%;
+	text-align: center;
+}
+
+#pil-distance {
+	position: absolute;
+	bottom: 5%;
+	height: 25%;
+	width: 25%;
+	text-align: center;
+}
+
+#vertical-line {
+	position: absolute;
+	z-index: 9000;
+	bottom: 10%;
+	left: 25%;
+	width: 2px;
+	height: 80%;
+	background-color: #b8b8b8;
+	box-shadow: 0px 0px 3px #d2d2d2;
+}
+
+#rute-data {
+	height: 100%;
+	width: 75%;
+}
+
+#rute-data-nu {
+	position: absolute;
+	bottom: 30%;
+	right: 0%;
+	height: 70%;
+	width: 75%;
+	text-align: center;
+}
+
+#rute-data-næste {
+	position: absolute;
+	bottom: 5%;
+	right: 0%;
+	height: 25%;
+	width: 75%;
+	text-align: center;
+}
+
+
+/* Fonts */
+a.menu_overskrift {
+	font-size: 13px;
+	color: #fff;
+}
+
+.datah1 {
+	margin: 0px;
+	color: #000;
+	opacity: 1;
+	font-size: 2em;
+}
+
+.datah1-næste {
+	margin: 0px;
+	color: #000;
+	font-size: 1em;
+}
+
+.distanceh3 {
+	margin: 0px;
+	color: #000;
+	opacity: 1;
+}
+
+.test {
+	font-size: 3em;
+	opacity: 1;
+	color: #000;
+}
+
+
+/****************************************/
+li.suggetion_list{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	list-style: none;
+	
+}
+
+.btn{
+border: 1px solid black;
+}
+
+html, body{
+	background-color: #f5f5f5;
+}
+
+.wrap{
+	padding-top: 25%;
+}
+
+.first{
+	/*margin-top: 12%;*/
+}
+
+.box{
+	width: 90%;
+	height: 300px;
+	/*border: 1px solid black;*/
+	margin-bottom: 10px;
+	position: relative;
+	left: 50%;
+	margin-left: -45%;
+	text-align: center;
+}
+
+.title{
+	text-align: center;
+	border-bottom: 1px solid #f2734a;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 1em;
+}
+
+.fixed{
+	position: fixed;
+	z-index: 20;
+}
+
+.search{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 30;
+}
+
+.hidden{
+	display: none;
+}
+
+.inline{
+	display: inline-block;
+}
+
+.white{
+	background-color: #FFF;
+}
+
+.transparent{
+	background-color: transparent;
+}
+
+.header{
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid #f2734a;
+	top: 0;
+	left: 0;
+}
+
+.input_field{
+	width: 85%;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-top: 5px;
+	border: 1px solid black;
+}
+
+.header_box{
+	width: 80%;
+}
+
+.start_btn{
+	height: 80%;
+	width: 19%;
+	position: absolute;
+	top: 0;
+}
+
+.tab{
+	width: 49%;
+	height: 30px;
+	text-align: center;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+
+.scrollable {
+      position: absolute;
+	  top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      overflow: scroll;
+}
+
